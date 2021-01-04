@@ -1,0 +1,249 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "WIN-A93Q49ILT84",
+    "children" : [ {
+      "name" : "10604-MainThread",
+      "children" : [ {
+        "name" : "test_login_study[datas0]",
+        "uid" : "beec2a06c3fbcd3d",
+        "parentUid" : "4068290779517eed8cabf76610540799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609571836870,
+          "stop" : 1609571837848,
+          "duration" : 978
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login', '模块': '登录', '接口的名称': '用户登录信息', '请求地址': 'https://open.shiguangkey.com/api/udb/login/standard', '前置条件': '', '请求方法': 'post', '请求格式': '', '请求参数': '{\"account\": \"t0327627844\",\\n    \"password\": \"nL+KTcuOMGgrkn81LWVZoA\",\\n    \"inviteLinkId\":\"\",\\n    \"ticketLogin\": 1}', '期望结果': 't0327627844', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\" ,\\n    \"terminaltype\": \"4\"}', '是否运行': 'y', '状态码': '200'}" ]
+      }, {
+        "name" : "test_login_study[datas1]",
+        "uid" : "f685907fa8f9b9ab",
+        "parentUid" : "4068290779517eed8cabf76610540799",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609571837890,
+          "stop" : 1609571838382,
+          "duration" : 492
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login_04', '模块': '系统', '接口的名称': '修改个人信息', '请求地址': 'https://open.shiguangkey.com/api/udb/user/update/userinfo', '前置条件': 'login', '请求方法': 'post', '请求格式': '', '请求参数': '     {\\n\"nickname\":\"顽皮的虎头兰\",\\n         \"gender\": \"1\",\\n         \"qq\": \"343453ghjkjh\",\\n        \"wechat\": \"453453453543\",\\n\"description\":\"你34534534534uuuu6\"\\n    }', '期望结果': 'success', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\",\\n    \"terminaltype\": \"4\",\"token\":\"{token}\"}', '是否运行': 'y', '状态码': '200'}" ]
+      } ],
+      "uid" : "4068290779517eed8cabf76610540799"
+    }, {
+      "name" : "4968-MainThread",
+      "children" : [ {
+        "name" : "test_login_study[datas0]",
+        "uid" : "6f060cf6cadb0059",
+        "parentUid" : "51e69d53273beaba57a011f101945a8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609574951140,
+          "stop" : 1609574952325,
+          "duration" : 1185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login', '模块': '登录', '接口的名称': '用户登录信息', '请求地址': 'https://open.shiguangkey.com/api/udb/login/standard', '前置条件': '', '请求方法': 'post', '请求格式': '', '请求参数': '{\"account\": \"t0327627844\",\\n    \"password\": \"nL+KTcuOMGgrkn81LWVZoA\",\\n    \"inviteLinkId\":\"\",\\n    \"ticketLogin\": 1}', '期望结果': 't0327627844', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\" ,\\n    \"terminaltype\": \"4\"}', '是否运行': 'y', '状态码': '200'}" ]
+      }, {
+        "name" : "test_login_study[datas1]",
+        "uid" : "46e9b30d50488327",
+        "parentUid" : "51e69d53273beaba57a011f101945a8d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609574952338,
+          "stop" : 1609574952839,
+          "duration" : 501
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login_04', '模块': '系统', '接口的名称': '修改个人信息', '请求地址': 'https://open.shiguangkey.com/api/udb/user/update/userinfo', '前置条件': 'login', '请求方法': 'post', '请求格式': '', '请求参数': '     {\\n\"nickname\":\"顽皮的虎头兰\",\\n         \"gender\": \"1\",\\n         \"qq\": \"343453ghjkjh\",\\n        \"wechat\": \"453453453543\",\\n\"description\":\"你34534534534uuuu6\"\\n    }', '期望结果': 'success', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\",\\n    \"terminaltype\": \"4\",\"token\":\"{token}\"}', '是否运行': 'y', '状态码': '200'}" ]
+      } ],
+      "uid" : "51e69d53273beaba57a011f101945a8d"
+    }, {
+      "name" : "1444-MainThread",
+      "children" : [ {
+        "name" : "test_login_study[datas1]",
+        "uid" : "69c76ee89fc9bcac",
+        "parentUid" : "329e6309440d7820fc36baa23b306537",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609665126814,
+          "stop" : 1609665127383,
+          "duration" : 569
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login_04', '模块': '系统', '接口的名称': '修改个人信息', '请求地址': 'https://open.shiguangkey.com/api/udb/user/update/userinfo', '前置条件': 'login', '请求方法': 'post', '请求格式': '', '请求参数': '     {\\n\"nickname\":\"顽皮的虎头兰\",\\n         \"gender\": \"1\",\\n         \"qq\": \"343453ghjkjh\",\\n        \"wechat\": \"453453453543\",\\n\"description\":\"你34534534534uuuu6\"\\n    }', '期望结果': 'success', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\",\\n    \"terminaltype\": \"4\",\"token\":\"{token}\"}', '是否运行': 'y', '状态码': '200'}" ]
+      }, {
+        "name" : "test_login_study[datas0]",
+        "uid" : "d6a64fca0b17d1e6",
+        "parentUid" : "329e6309440d7820fc36baa23b306537",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609665126313,
+          "stop" : 1609665126804,
+          "duration" : 491
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login', '模块': '登录', '接口的名称': '用户登录信息', '请求地址': 'https://open.shiguangkey.com/api/udb/login/standard', '前置条件': '', '请求方法': 'post', '请求格式': '', '请求参数': '{\"account\": \"t0327627844\",\\n    \"password\": \"nL+KTcuOMGgrkn81LWVZoA\",\\n    \"inviteLinkId\":\"\",\\n    \"ticketLogin\": 1}', '期望结果': 't0327627844', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\" ,\\n    \"terminaltype\": \"4\"}', '是否运行': 'y', '状态码': '200'}" ]
+      } ],
+      "uid" : "329e6309440d7820fc36baa23b306537"
+    }, {
+      "name" : "4380-MainThread",
+      "children" : [ {
+        "name" : "test_login_study[datas0]",
+        "uid" : "5637e24f55c8b1e5",
+        "parentUid" : "94bc0cfa4c3a8cf1c520fcc20a6a49ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609570040398,
+          "stop" : 1609570041595,
+          "duration" : 1197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login', '模块': '登录', '接口的名称': '用户登录信息', '请求地址': 'https://open.shiguangkey.com/api/udb/login/standard', '前置条件': '', '请求方法': 'post', '请求格式': '', '请求参数': '{\"account\": \"t0327627844\",\\n    \"password\": \"nL+KTcuOMGgrkn81LWVZoA\",\\n    \"inviteLinkId\":\"\",\\n    \"ticketLogin\": 1}', '期望结果': 't0327627844', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\" ,\\n    \"terminaltype\": \"4\"}', '是否运行': 'y', '状态码': '200'}" ]
+      }, {
+        "name" : "test_login_study[datas1]",
+        "uid" : "72ee0e6a4af9261f",
+        "parentUid" : "94bc0cfa4c3a8cf1c520fcc20a6a49ee",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609570041627,
+          "stop" : 1609570042117,
+          "duration" : 490
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login_04', '模块': '系统', '接口的名称': '修改个人信息', '请求地址': 'https://open.shiguangkey.com/api/udb/user/update/userinfo', '前置条件': 'login', '请求方法': 'post', '请求格式': '', '请求参数': '     {\\n\"nickname\":\"顽皮的虎头兰\",\\n         \"gender\": \"1\",\\n         \"qq\": \"343453ghjkjh\",\\n        \"wechat\": \"453453453543\",\\n\"description\":\"你34534534534uuuu6\"\\n    }', '期望结果': 'success', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\",\\n    \"terminaltype\": \"4\",\"token\":\"{token}\"}', '是否运行': 'y', '状态码': '200'}" ]
+      } ],
+      "uid" : "94bc0cfa4c3a8cf1c520fcc20a6a49ee"
+    }, {
+      "name" : "7084-MainThread",
+      "children" : [ {
+        "name" : "test_login_study[datas1]",
+        "uid" : "3ab2a6212646471",
+        "parentUid" : "f2945b7864a21460f1907cb7c8d67f52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609491827760,
+          "stop" : 1609491828338,
+          "duration" : 578
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login_04', '模块': '系统', '接口的名称': '修改个人信息', '请求地址': 'https://open.shiguangkey.com/api/udb/user/update/userinfo', '前置条件': 'login', '请求方法': 'post', '请求格式': '', '请求参数': '     {\\n\"nickname\":\"顽皮的虎头兰\",\\n         \"gender\": \"1\",\\n         \"qq\": \"343453ghjkjh\",\\n        \"wechat\": \"453453453543\",\\n\"description\":\"你34534534534uuuu6\"\\n    }', '期望结果': 'success', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\",\\n    \"terminaltype\": \"4\",\"token\":\"{token}\"}', '是否运行': 'y', '状态码': '200'}" ]
+      }, {
+        "name" : "test_login_study[datas0]",
+        "uid" : "77fc9f375dfe7e9d",
+        "parentUid" : "f2945b7864a21460f1907cb7c8d67f52",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609491826932,
+          "stop" : 1609491827526,
+          "duration" : 594
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login', '模块': '登录', '接口的名称': '用户登录信息', '请求地址': 'https://open.shiguangkey.com/api/udb/login/standard', '前置条件': '', '请求方法': 'post', '请求格式': '', '请求参数': '{\"account\": \"t0327627844\",\\n    \"password\": \"nL+KTcuOMGgrkn81LWVZoA\",\\n    \"inviteLinkId\":\"\",\\n    \"ticketLogin\": 1}', '期望结果': 't0327627844', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\" ,\\n    \"terminaltype\": \"4\"}', '是否运行': 'y', '状态码': '200'}" ]
+      } ],
+      "uid" : "f2945b7864a21460f1907cb7c8d67f52"
+    }, {
+      "name" : "5636-MainThread",
+      "children" : [ {
+        "name" : "test_login_study[datas1]",
+        "uid" : "f877b9e3b3bee6db",
+        "parentUid" : "3dfdd91091069a108ddb0e1c67f0e67c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609669617595,
+          "stop" : 1609669618099,
+          "duration" : 504
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login_04', '模块': '系统', '接口的名称': '修改个人信息', '请求地址': 'https://open.shiguangkey.com/api/udb/user/update/userinfo', '前置条件': 'login', '请求方法': 'post', '请求格式': '', '请求参数': '     {\\n\"nickname\":\"顽皮的虎头兰\",\\n         \"gender\": \"1\",\\n         \"qq\": \"343453ghjkjh\",\\n        \"wechat\": \"453453453543\",\\n\"description\":\"你34534534534uuuu6\"\\n    }', '期望结果': 'success', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\",\\n    \"terminaltype\": \"4\",\"token\":\"{token}\"}', '是否运行': 'y', '状态码': '200'}" ]
+      }, {
+        "name" : "test_login_study[datas0]",
+        "uid" : "c19e75ece78d9cda",
+        "parentUid" : "3dfdd91091069a108ddb0e1c67f0e67c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609669616388,
+          "stop" : 1609669617541,
+          "duration" : 1153
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login', '模块': '登录', '接口的名称': '用户登录信息', '请求地址': 'https://open.shiguangkey.com/api/udb/login/standard', '前置条件': '', '请求方法': 'post', '请求格式': '', '请求参数': '{\"account\": \"t0327627844\",\\n    \"password\": \"nL+KTcuOMGgrkn81LWVZoA\",\\n    \"inviteLinkId\":\"\",\\n    \"ticketLogin\": 1}', '期望结果': 't0327627844', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\" ,\\n    \"terminaltype\": \"4\"}', '是否运行': 'y', '状态码': '200'}" ]
+      } ],
+      "uid" : "3dfdd91091069a108ddb0e1c67f0e67c"
+    }, {
+      "name" : "1192-MainThread",
+      "children" : [ {
+        "name" : "test_login_study[datas1]",
+        "uid" : "f199aa4fef3f2662",
+        "parentUid" : "29c8a3e82304052bde2497ef8b117b21",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609665011931,
+          "stop" : 1609665012176,
+          "duration" : 245
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login_04', '模块': '系统', '接口的名称': '修改个人信息', '请求地址': 'https://open.shiguangkey.com/api/udb/user/update/userinfo', '前置条件': 'login', '请求方法': 'post', '请求格式': '', '请求参数': '     {\\n\"nickname\":\"顽皮的虎头兰\",\\n         \"gender\": \"1\",\\n         \"qq\": \"343453ghjkjh\",\\n        \"wechat\": \"453453453543\",\\n\"description\":\"你34534534534uuuu6\"\\n    }', '期望结果': 'success', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\",\\n    \"terminaltype\": \"4\",\"token\":\"{token}\"}', '是否运行': 'y', '状态码': '200'}" ]
+      }, {
+        "name" : "test_login_study[datas0]",
+        "uid" : "839db755f94bafbf",
+        "parentUid" : "29c8a3e82304052bde2497ef8b117b21",
+        "status" : "broken",
+        "time" : {
+          "start" : 1609665011337,
+          "stop" : 1609665011805,
+          "duration" : 468
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login', '模块': '登录', '接口的名称': '用户登录信息', '请求地址': 'https://open.shiguangkey.com/api/udb/login/standard', '前置条件': '', '请求方法': 'post', '请求格式': '', '请求参数': '{\"account\": \"t0327627844\",\\n    \"password\": \"nL+KTcuOMGgrkn81LWVZoA\",\\n    \"inviteLinkId\":\"\",\\n    \"ticketLogin\": 1}', '期望结果': 't0327627844', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\" ,\\n    \"terminaltype\": \"4\"}', '是否运行': 'y', '状态码': '200'}" ]
+      } ],
+      "uid" : "29c8a3e82304052bde2497ef8b117b21"
+    }, {
+      "name" : "8900-MainThread",
+      "children" : [ {
+        "name" : "test_login_study[datas0]",
+        "uid" : "151b009bd069181b",
+        "parentUid" : "0954ee095da1f75fd438f1c632631d0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609491891690,
+          "stop" : 1609491892315,
+          "duration" : 625
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login', '模块': '登录', '接口的名称': '用户登录信息', '请求地址': 'https://open.shiguangkey.com/api/udb/login/standard', '前置条件': '', '请求方法': 'post', '请求格式': '', '请求参数': '{\"account\": \"t0327627844\",\\n    \"password\": \"nL+KTcuOMGgrkn81LWVZoA\",\\n    \"inviteLinkId\":\"\",\\n    \"ticketLogin\": 1}', '期望结果': 't0327627844', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\" ,\\n    \"terminaltype\": \"4\"}', '是否运行': 'y', '状态码': '200'}" ]
+      }, {
+        "name" : "test_login_study[datas1]",
+        "uid" : "f0fba0cbf4f75beb",
+        "parentUid" : "0954ee095da1f75fd438f1c632631d0b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1609491892331,
+          "stop" : 1609491892831,
+          "duration" : 500
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'用例的id': 'login_04', '模块': '系统', '接口的名称': '修改个人信息', '请求地址': 'https://open.shiguangkey.com/api/udb/user/update/userinfo', '前置条件': 'login', '请求方法': 'post', '请求格式': '', '请求参数': '     {\\n\"nickname\":\"顽皮的虎头兰\",\\n         \"gender\": \"1\",\\n         \"qq\": \"343453ghjkjh\",\\n        \"wechat\": \"453453453543\",\\n\"description\":\"你34534534534uuuu6\"\\n    }', '期望结果': 'success', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\",\\n    \"terminaltype\": \"4\",\"token\":\"{token}\"}', '是否运行': 'y', '状态码': '200'}" ]
+      } ],
+      "uid" : "0954ee095da1f75fd438f1c632631d0b"
+    } ],
+    "uid" : "f0bd8da07fbcdb255f3670984db54304"
+  } ]
+}

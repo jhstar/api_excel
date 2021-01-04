@@ -1,0 +1,5 @@
+login_1: { account: 't0327627844', password: 'nL+KTcuOMGgrkn81LWVZoA',inviteLinkId: '',ticketLogin:  '1'}
+header_login_01: {"User-Agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36",
+    "Content-Type": "application/x-www-form-urlencoded",
+    "Referer": "https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=" ,
+    "terminaltype": "4"}

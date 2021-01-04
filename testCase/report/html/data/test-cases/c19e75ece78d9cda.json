@@ -1,0 +1,111 @@
+{
+  "uid" : "c19e75ece78d9cda",
+  "name" : "test_login_study[datas0]",
+  "fullName" : "test_login_token#test_login_study",
+  "historyId" : "f32d64556090df4963348ac32bead150",
+  "time" : {
+    "start" : 1609669616388,
+    "stop" : 1609669617541,
+    "duration" : 1153
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login_token"
+  }, {
+    "name" : "host",
+    "value" : "WIN-A93Q49ILT84"
+  }, {
+    "name" : "thread",
+    "value" : "5636-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login_token"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'用例的id': 'login', '模块': '登录', '接口的名称': '用户登录信息', '请求地址': 'https://open.shiguangkey.com/api/udb/login/standard', '前置条件': '', '请求方法': 'post', '请求格式': '', '请求参数': '{\"account\": \"t0327627844\",\\n    \"password\": \"nL+KTcuOMGgrkn81LWVZoA\",\\n    \"inviteLinkId\":\"\",\\n    \"ticketLogin\": 1}', '期望结果': 't0327627844', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\" ,\\n    \"terminaltype\": \"4\"}', '是否运行': 'y', '状态码': '200'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d6a64fca0b17d1e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609665126313,
+        "stop" : 1609665126804,
+        "duration" : 491
+      }
+    }, {
+      "uid" : "839db755f94bafbf",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'headers' is not defined",
+      "time" : {
+        "start" : 1609665011337,
+        "stop" : 1609665011805,
+        "duration" : 468
+      }
+    }, {
+      "uid" : "6f060cf6cadb0059",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609574951140,
+        "stop" : 1609574952325,
+        "duration" : 1185
+      }
+    }, {
+      "uid" : "beec2a06c3fbcd3d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609571836870,
+        "stop" : 1609571837848,
+        "duration" : 978
+      }
+    }, {
+      "uid" : "5637e24f55c8b1e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609570040398,
+        "stop" : 1609570041595,
+        "duration" : 1197
+      }
+    }, {
+      "uid" : "151b009bd069181b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609491891690,
+        "stop" : 1609491892315,
+        "duration" : 625
+      }
+    }, {
+      "uid" : "77fc9f375dfe7e9d",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 200 == '200'\n  -200\n  +'200'",
+      "time" : {
+        "start" : 1609491826932,
+        "stop" : 1609491827526,
+        "duration" : 594
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c19e75ece78d9cda.json",
+  "parameterValues" : [ "{'用例的id': 'login', '模块': '登录', '接口的名称': '用户登录信息', '请求地址': 'https://open.shiguangkey.com/api/udb/login/standard', '前置条件': '', '请求方法': 'post', '请求格式': '', '请求参数': '{\"account\": \"t0327627844\",\\n    \"password\": \"nL+KTcuOMGgrkn81LWVZoA\",\\n    \"inviteLinkId\":\"\",\\n    \"ticketLogin\": 1}', '期望结果': 't0327627844', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\" ,\\n    \"terminaltype\": \"4\"}', '是否运行': 'y', '状态码': '200'}" ]
+}

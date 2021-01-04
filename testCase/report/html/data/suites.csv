@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Jan 03 18:26:56 CST 2021","Sun Jan 03 18:26:57 CST 2021","1153","","test_login_token","","","","test_login_study[datas0]",""
+"passed","Sun Jan 03 18:26:57 CST 2021","Sun Jan 03 18:26:58 CST 2021","504","","test_login_token","","","","test_login_study[datas1]",""

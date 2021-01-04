@@ -1,0 +1,35 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_login_token",
+    "children" : [ {
+      "name" : "test_login_study[datas0]",
+      "uid" : "c19e75ece78d9cda",
+      "parentUid" : "f77f633a8be082722d80bff6643d8f3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609669616388,
+        "stop" : 1609669617541,
+        "duration" : 1153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'用例的id': 'login', '模块': '登录', '接口的名称': '用户登录信息', '请求地址': 'https://open.shiguangkey.com/api/udb/login/standard', '前置条件': '', '请求方法': 'post', '请求格式': '', '请求参数': '{\"account\": \"t0327627844\",\\n    \"password\": \"nL+KTcuOMGgrkn81LWVZoA\",\\n    \"inviteLinkId\":\"\",\\n    \"ticketLogin\": 1}', '期望结果': 't0327627844', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\" ,\\n    \"terminaltype\": \"4\"}', '是否运行': 'y', '状态码': '200'}" ]
+    }, {
+      "name" : "test_login_study[datas1]",
+      "uid" : "f877b9e3b3bee6db",
+      "parentUid" : "f77f633a8be082722d80bff6643d8f3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609669617595,
+        "stop" : 1609669618099,
+        "duration" : 504
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{'用例的id': 'login_04', '模块': '系统', '接口的名称': '修改个人信息', '请求地址': 'https://open.shiguangkey.com/api/udb/user/update/userinfo', '前置条件': 'login', '请求方法': 'post', '请求格式': '', '请求参数': '     {\\n\"nickname\":\"顽皮的虎头兰\",\\n         \"gender\": \"1\",\\n         \"qq\": \"343453ghjkjh\",\\n        \"wechat\": \"453453453543\",\\n\"description\":\"你34534534534uuuu6\"\\n    }', '期望结果': 'success', '请求头': '{\"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36\",\\n    \"Content-Type\": \"application/x-www-form-urlencoded\",\\n    \"Referer\": \"https://open.shiguangkey.com/?version&showClose=true&isRegister&bindPhone=false&wechat=false&token=&autoClose=true&systemId=0&inviteLinkId=&local=\",\\n    \"terminaltype\": \"4\",\"token\":\"{token}\"}', '是否运行': 'y', '状态码': '200'}" ]
+    } ],
+    "uid" : "f77f633a8be082722d80bff6643d8f3c"
+  } ]
+}
